@@ -1,0 +1,15 @@
+*6.30 (Shuffle string) Write a function that randomly shuffles the characters in a string using the following header:
+
+quadratic equation calculator
+
+cramers rule calculator
+
+point of intersection of 2 lines
+
+format a number with specified width and leading spaces
+
+credit card number validator. luhn check/ mod 10 check.
+
+check if one string is contained in another(substring)
+
+occurences of character in a string
