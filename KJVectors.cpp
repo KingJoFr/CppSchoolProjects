@@ -26,10 +26,10 @@ vector<T> intersection(const vector<T>& v1, const vector<T>& v2)
     vector<T> v3;
     for(int i = 0; i< v1.size(); i++)
     {
-        <T>* element = find(v2.begin(), v2.end(), v1.[i]); //returns the element v1[i] if it is in v2 else return v2.end()
-        if(element != v2.end())
+     
+        if(find(v2.begin(), v2.end(), v1[i]) != v2.end())  //returns the element v1[i] if it is in v2 else return v2.end()
         {
-            v3.push_back(*element);
+            v3.push_back(*find(v2.begin(), v2.end(), v1[i]));// adds that element to the new vector
         }
     }
     return v3;
@@ -53,6 +53,11 @@ int main()
         v2.push_back(element);
     }
     vector<string> result = intersection(v1, v2);
+    cout<<"The common strings are ";
+    for(string e: result) // can't print vector directly, must print each element one at a time.
+    {
+        cout << e << " ";
+    }
 
     return 0;
 }
