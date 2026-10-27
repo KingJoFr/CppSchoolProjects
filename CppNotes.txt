@@ -1,0 +1,6 @@
+header files and uses
+<cmath> math stuff: pow() etc
+<sstream> string manipulation 
+<fstream> file manipulation
+<iostream> input/output: cout, cin etc
+<string>
